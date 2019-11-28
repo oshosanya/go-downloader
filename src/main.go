@@ -1,5 +1,7 @@
 package main
 
+import "github.com/oshosanya/go-downloader/src/agent/cmd"
+
 func main() {
-	println("Hello bitch")
+	cmd.Execute()
 }
